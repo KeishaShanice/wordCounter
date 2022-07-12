@@ -3,10 +3,12 @@ let countEl = document.getElementById("countNum");
 let addButton = document.getElementById("incrementButton");
 let saveButton = document.getElementById("saveButton");
 let previousEntry = document.getElementById("saveEl");
+let clearButton = document.getElementById('clearPrevious');
 
 //listen for clicks
 addButton.addEventListener('click', increment);
-saveButton.addEventListener('click', save)
+saveButton.addEventListener('click', save);
+clearButton.addEventListener('click', clear);
 
 //declare and initialize count
 let count = 0;
@@ -33,6 +35,12 @@ function save() {
     //reset page
     count = 0;
     countEl.textContent = count;
+}
+
+//create function to clear count
+function clear(){
+    previousEntry.textContent = "Previous Entries: ";
+    knownWordArray = [];
 }
 
 
