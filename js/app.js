@@ -42,5 +42,3 @@ function clear(){
     previousEntry.textContent = "Previous Entries: ";
     knownWordArray = [];
 }
-
-
