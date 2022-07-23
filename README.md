@@ -1,18 +1,21 @@
-# wordCounter
-Background: 
-I enjoy learning languages. One problem I always had was keeping track of my improvement. While I could keep track of the things I was learning with notes, I never kept track of how much I was actually retaining. So, I took a project tutorial I completed for a person counter application, redid and revamped it, and created an application that allows you to count the words you recognize while you are listening to, watching, or reading a new language.
+<h1>Word Counter</h1>
 
-Description: 
-Users can keep track of the amount of words they recognize while consuming target language material.
+<p>Users can keep track of the amount of words they recognize while consuming target language material.</p>
+<p>Link To Project: https://keishashanice.github.io/wordCounter/</p>
 
-Technologies Used: 
-HTML, CSS, JavaScript
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/IjAos9vgrtj1puHzch/giphy.gif" />
+  
+</div>
 
-Works by: 
-Use buttons to add to, save, or clear count. The add button will add to the total count. The save button will save the current count to the previous entries section and restart the count at zero. The clear button will clear the previous entries section. 
+<h2>How It's Made:</h2>
+<p>Technologies used include HTML, CSS, JavaScript</p>
 
-Additional Inclusions: 
-In addition to project requirements, I included a clear function that clears the previous entries. I used event listeners instead of the "onclick" in HTML. I also used an array to manipulate and hold the entries instead of adding them directly to the output.
+<h3>In Action:</h3>
+<p>Use buttons to add to, save, or clear count. The add button will add to the total count. The save button will save the current count to the previous entries section and restart the count at zero. The clear button will clear the previous entries section.  </p>
 
-Moving Forward:
-My styling sense isn't the best, but I look forward to learning more and improving as I continue to progress. 
+<h2>Optimizations:</h2>
+<p>In addition to project requirements, I included a clear function that clears the previous entries. I used event listeners instead of the "onclick" in HTML. I also used an array to manipulate and hold the entries instead of adding them directly to the output.</p>
+
+<h2>Lessons Learned:</h2>
+<p>With this project, I was able to explore using a data structure to store and manipulate data. I found it more efficient to use an array to store the count, rather than concatenating it to a holding variable every save.</p>
